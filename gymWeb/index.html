@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Rock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to Hard Rock</h1>
+        <p>Your Journey to Fitness Starts Here</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="./images/personal.jpg" alt="Service 1">
+            <h3>Personal Training</h3>
+            <p>We provide best personal advice and guidance on exercise and fitness for that person who wish to lose weight or gain muscle</p>  
+        </div>
+        <div class="service">
+            <img src="./images/group.webp" alt="Service 2">
+            <h3>Group Classes</h3>
+            <p>We also provide a group class that can build your confidence and even helps you gain support and motivation</p>
+          
+        </div>
+        <div class="service">
+            <img src="./images/nutrition.webp" alt="Service 3">
+            <h3>Nutrition Plans</h3>
+             <p>we provide well-balanced diet that can help you get the calories and nutrients you need to fuel your daily activities</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-area">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>At Gym and Fitness, we believe that fitness and wellbeing are the cornerstones of a full and vibrant life. Established in 2002, we began our journey as a family-owned business dedicated to providing exceptional gym equipment at affordable prices. But, we dreamed bigger than just being an ordinary fitness equipment supplier; we aspired to lead the industry.</p>
+                <p>Two decades later, we are proud to have transformed Gym and Fitness into one of Australia's premier online retailers of fitness equipment. We've moved beyond just supplying gear – we've become advocates for fitness, wellbeing and life enrichment. Our commitment to excellence is reflected not only in the quality equipment we provide but also in the lives we've improved.</p>
+                <a href="#services" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact us today!</p>
+        <a href="#contact-form" class="cta-button">Contact Now</a>
+    </section>
+    
+    <section id="contact-form" class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy;Hard Rock</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
